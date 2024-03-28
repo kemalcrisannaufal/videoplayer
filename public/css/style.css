@@ -1,0 +1,182 @@
+.bg {
+    background-image: url('https://images.pexels.com/photos/236171/pexels-photo-236171.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.video-box {
+    border: solid 2px gainsboro;
+    border-radius: 5px;
+    padding: 0px;
+    overflow: hidden;
+    font-family:'Roboto', sans-serif;
+}
+
+.video-box img {
+    object-fit: cover;
+    width: 100%;
+}
+
+.video-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 15px;
+    height: 120px;
+}
+
+.video-title {
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.video-date {
+    font-size: 14px;
+    color: gray;
+}
+
+.bg-navy {
+    background-color: #001f3f;
+    color: white;
+}
+
+.btn-navy {
+    background-color: #001f3f;
+    color: white;
+}
+
+a {
+    display: block;
+    max-width: 300px;
+    text-decoration: none;
+    color: black;
+    margin: 0;
+    padding: 0;
+}
+
+.side-video {
+    margin-bottom: 15px;
+    width: 100%;
+    border-radius: 5px;
+    display: flex;
+}
+
+
+.side-video-date {
+    color: gray;
+    font-weight: 600;
+}
+
+.description-box {
+    font-size: small;
+    border-radius: 3px;
+    padding: 10px;
+    background-color: rgb(227, 227, 227);
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+.input-comment {
+    outline-style: none;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+.side-video-link{
+    width: 100%;
+}
+
+.side-video-title {
+    font-size: 15px;
+}
+
+
+.side-video-text-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 14px;
+    padding: 10px;
+}
+
+.profile-picture-video {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+}
+
+.btn-main-video, .btn-main-edit, .btn-main-delete, .like-dislike{
+    background-color: rgb(243, 243, 243);
+    border: none;
+    padding: 5px 10px;
+    border-radius: 20px;
+}
+
+.btn-main-delete {
+    background-color: red;
+    color: white;
+}
+
+.btn-main-edit {
+    background-color: blue;
+    color: white;
+}
+
+.btn-like-dislike {
+    margin: 0 5px;
+    border: none;
+}
+
+.main-video {
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    display: flex;
+}
+
+.img-video-main {
+    width: 330px;
+    height: 180px;
+}
+
+.main-video-body {
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.main-video-title {
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.main-video-description {
+    font-size: 14px;
+    color: grey;
+}
+
+.btn-videos {
+    display: inline-block;
+    background-color: #001f3f;
+    min-width: 100%;
+    color:  white;
+    padding: 5px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.img-video-home {
+    height: 150px;
+}
